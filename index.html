@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FADE & CO. | Premium Barbershop</title>
+
+    <!-- Google Fonts & FontAwesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Top Announcement Bar -->
+<div class="announcement-bar">
+    <i class="fa-solid fa-scissors"></i> BOOK ONLINE & GET 10% OFF YOUR FIRST VISIT
+</div>
+
+<!-- Header / Navigation -->
+<header>
+    <div class="container nav-container">
+        <a href="#" class="logo">
+            <span class="logo-mark">M</span>
+            <span class="logo-title">FADE & CO.</span>
+            <span class="logo-sub">BARBERSHOP</span>
+        </a>
+
+        <nav class="desktop-nav">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#pricing">PRICING</a>
+        </nav>
+
+        <div class="header-right">
+            <button class="btn btn-black open-modal-btn">BOOK NOW</button>
+            <button class="hamburger-btn" id="menuToggle"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </div>
+</header>
+
+<!-- Mobile Drawer -->
+<div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+        <span class="logo-title">FADE & CO.</span>
+        <button id="closeDrawer"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <nav class="mobile-nav">
+        <a href="#home" class="mobile-link">HOME</a>
+        <a href="#about" class="mobile-link">ABOUT</a>
+        <a href="#services" class="mobile-link">SERVICES</a>
+        <a href="#gallery" class="mobile-link">GALLERY</a>
+        <a href="#pricing" class="mobile-link">PRICING</a>
+    </nav>
+</div>
+
+<!-- Hero Section -->
+<section id="home" class="hero-section">
+    <div class="container hero-container">
+        <div class="hero-content">
+            <span class="hero-subtitle">LOOK GOOD. FEEL CONFIDENT.</span>
+            <h1 class="hero-title">More Than<br>a <span>Haircut</span></h1>
+            <p class="hero-text">Precision cuts. Clean fades. Elevated grooming for the modern man.</p>
+
+            <div class="hero-actions">
+                <button class="btn btn-black open-modal-btn">BOOK YOUR APPOINTMENT &rarr;</button>
+                <a href="#services" class="btn btn-outline">VIEW SERVICES</a>
+            </div>
+
+            <div class="social-proof">
+                <div class="avatar-group">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=100" alt="Client">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" alt="Client">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=100" alt="Client">
+                    <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&q=80&w=100" alt="Client">
+                </div>
+                <div class="rating-info">
+                    <strong>1K+ HAPPY CLIENTS</strong>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=1000" alt="Master Barber at work">
+        </div>
+    </div>
+</section>
+
+<!-- 4 Trust Features Row -->
+<section class="trust-section">
+    <div class="container trust-grid">
+        <div class="trust-card">
+            <i class="fa-solid fa-chair trust-icon"></i>
+            <h3>EXPERT BARBERS</h3>
+            <p>Skilled professionals who care.</p>
+        </div>
+        <div class="trust-card">
+            <i class="fa-solid fa-scissors trust-icon"></i>
+            <h3>PREMIUM PRODUCTS</h3>
+            <p>We use only top quality products.</p>
+        </div>
+        <div class="trust-card">
+            <i class="fa-regular fa-calendar-check trust-icon"></i>
+            <h3>EASY BOOKING</h3>
+            <p>Book online in seconds and save your time.</p>
+        </div>
+        <div class="trust-card">
+            <i class="fa-solid fa-shield-halved trust-icon"></i>
+            <h3>HYGIENE FIRST</h3>
+            <p>We follow the highest standards of hygiene.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services-section">
+    <div class="container">
+        <div class="services-header">
+            <div>
+                <span class="sub-heading">OUR SERVICES</span>
+                <h2 class="section-title">Precision in Every <span>Detail</span></h2>
+                <p class="section-desc">From timeless cuts to modern styles, we've got you covered.</p>
+            </div>
+            <a href="#services" class="btn btn-black desktop-only-btn">VIEW ALL SERVICES</a>
+        </div>
+
+        <div class="services-grid">
+            <!-- Card 1 -->
+            <div class="service-card">
+                <div class="service-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&q=80&w=600" alt="Haircut">
+                </div>
+                <div class="service-content">
+                    <h3>HAIRCUT</h3>
+                    <p class="price">$35</p>
+                    <button class="btn-link open-modal-btn" data-service="Haircut ($35)">Book Now &rarr;</button>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="service-card">
+                <div class="service-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&q=80&w=600" alt="Beard Trim">
+                </div>
+                <div class="service-content">
+                    <h3>BEARD TRIM</h3>
+                    <p class="price">$20</p>
+                    <button class="btn-link open-modal-btn" data-service="Beard Trim ($20)">Book Now &rarr;</button>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="service-card">
+                <div class="service-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&q=80&w=600" alt="Hair Wash">
+                </div>
+                <div class="service-content">
+                    <h3>HAIR WASH</h3>
+                    <p class="price">$15</p>
+                    <button class="btn-link open-modal-btn" data-service="Hair Wash ($15)">Book Now &rarr;</button>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="service-card">
+                <div class="service-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=600" alt="Kids Cut">
+                </div>
+                <div class="service-content">
+                    <h3>KIDS CUT</h3>
+                    <p class="price">$25</p>
+                    <button class="btn-link open-modal-btn" data-service="Kids Cut ($25)">Book Now &rarr;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bottom CTA Split Section -->
+<section class="cta-section">
+    <div class="container cta-grid">
+        <!-- Dark Box -->
+        <div class="cta-dark">
+            <span class="cta-tag">WALK IN OR BOOK ONLINE</span>
+            <h2>Your Style,<br>Our Passion.</h2>
+            <p>Experience the perfect blend of style, comfort, and confidence.</p>
+            <span class="signature">Fade & Co. Barbershop</span>
+        </div>
+
+        <!-- Center Image -->
+        <div class="cta-img">
+            <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&q=80&w=800" alt="Barbershop Interior">
+        </div>
+
+        <!-- Light Action Box -->
+        <div class="cta-light">
+            <i class="fa-regular fa-calendar-days cta-icon"></i>
+            <span class="cta-light-tag">READY FOR A FRESH LOOK?</span>
+            <h3>Book Your Appointment Today</h3>
+            <button class="btn btn-black open-modal-btn">BOOK NOW &rarr;</button>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container footer-grid">
+        <div class="footer-brand">
+            <a href="#" class="logo">
+                <span class="logo-mark">M</span>
+                <span class="logo-title">FADE & CO.</span>
+                <span class="logo-sub">BARBERSHOP</span>
+            </a>
+            <p>Precision cuts. Clean fades. Premium grooming for the modern man.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h4>QUICK LINKS</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>SERVICES</h4>
+            <ul>
+                <li><a href="#services">Haircut</a></li>
+                <li><a href="#services">Beard Trim</a></li>
+                <li><a href="#services">Hair Wash</a></li>
+                <li><a href="#services">Kids Cut</a></li>
+                <li><a href="#services">Shave</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>CONTACT US</h4>
+            <ul class="contact-list">
+                <li><i class="fa-solid fa-location-dot"></i> 123 Barber Street, New York, NY 10001</li>
+                <li><i class="fa-solid fa-phone"></i> (123) 456-7890</li>
+                <li><i class="fa-solid fa-envelope"></i> hello@fadeandco.com</li>
+                <li><i class="fa-regular fa-clock"></i> Mon - Sun: 9AM - 8PM</li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>NEWSLETTER</h4>
+            <p>Stay updated with our latest offers and style tips.</p>
+            <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed successfully!');">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            &copy; 2026 Fade & Co. Barbershop. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+
+<!-- Booking Modal Popup -->
+<div class="modal" id="bookingModal">
+    <div class="modal-content">
+        <button class="modal-close" id="closeModal">&times;</button>
+        <h2>Book Your Appointment</h2>
+        <p>Select your service and preferred time below.</p>
+
+        <form id="appointmentForm">
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" id="custName" required placeholder="John Doe">
+            </div>
+
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" id="custPhone" required placeholder="(123) 456-7890">
+            </div>
+
+            <div class="form-group">
+                <label>Select Service</label>
+                <select id="serviceSelect" required>
+                    <option value="Haircut ($35)">Haircut - $35</option>
+                    <option value="Beard Trim ($20)">Beard Trim - $20</option>
+                    <option value="Hair Wash ($15)">Hair Wash - $15</option>
+                    <option value="Kids Cut ($25)">Kids Cut - $25</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Date</label>
+                    <input type="date" id="custDate" required>
+                </div>
+                <div class="form-group">
+                    <label>Time</label>
+                    <input type="time" id="custTime" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-black btn-block">Confirm Booking</button>
+        </form>
+    </div>
+</div>
+
+<!-- Custom JS -->
+<script src="script.js"></script>
+</body>
+</html>
